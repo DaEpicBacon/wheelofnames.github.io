@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Wheel of Names",
+  "version": "1.0",
+  "description": "A simple wheel of names extension for Google Chrome.",
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}

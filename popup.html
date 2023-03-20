@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wheel of Names</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="gsap.min.js"></script>
+    <script src="winwheel.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Wheel of Names</h1>
+      <br></br>
+      <div class="wheel-container">
+        <canvas id="wheelCanvas" width="300" height="300"></canvas>
+        <svg class="arrow" viewBox="0 0 16 16" width="24" height="24">
+          <polygon points="0,0 16,0 8,16" />
+        </svg>
+      </div>
+      <div id="result"></div>
+      <br></br>
+      <textarea id="names" rows="2" cols="10" placeholder="Enter names separated by commas..." data-names="Radek, Marcel, Domino, Michal, Pawel, Mateusz, Kathy"></textarea>
+      <button id="spin">Spin the Wheel!</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

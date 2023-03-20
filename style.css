@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.wheel-container {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -12px;
+  fill: #f00;
+}
+
+#wheelCanvas {
+  display: block;
+  margin: 20px auto;
+}
